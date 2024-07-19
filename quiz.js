@@ -1,7 +1,7 @@
 function checkAnswer () {
     var correctAnswer = "4";
 
-    var userAnswer = document.querySelector('input[name="quiz"]checked')
+    var userAnswer = document.querySelector('input[name="quiz"]checked').value = "userAnswer";
 
     var feedback = document.getElementById('feedback');
 
